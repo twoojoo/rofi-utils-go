@@ -33,7 +33,7 @@ func main() {
 	rofi.LaunchMenu(rofi.RofiMenuOptions{
 		Title: title,
 		Items: rofiItems,
-		Theme: homeDir + "/Projects/go/rofi-utils-go/config/themes/theme.rasi",
+		Theme: homeDir + "/Projects/go/rofi-utils-go/configs/themes/theme.rasi",
 		OnSelect: func(label string, value string) {
 			chromium.OpenPage(value)
 		},
